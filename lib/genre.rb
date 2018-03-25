@@ -6,7 +6,6 @@ class Genre
       @name = name
       @songs = []
       @artists = []
-      # binding.pry
     end
 
     def songs
@@ -16,17 +15,7 @@ class Genre
     def add_song(song)
       @songs << song
       @artists << song.artist
-      # binding.pry
 
     end
-
-    # def artists
-    #   @artists
-    # end
-    #
-    # def add_artist(artist)
-    #   @artists << song.artist
-    #   binding.pry
-    # end
 
 end
