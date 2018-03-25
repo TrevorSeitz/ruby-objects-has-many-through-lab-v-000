@@ -15,7 +15,7 @@ class Patient
     # @appointments << appointment
     # @doctors << doctor
     @appointments << appointment
-    @patients << appointment.patient
+    # @patients << appointment.patient
     @doctors << appointment.doctor
   end
 end
