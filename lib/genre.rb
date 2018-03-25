@@ -21,4 +21,8 @@ class Genre
       @artists
     end
 
+    def add_artist(artist)
+      @artists << artist
+    end
+
 end
