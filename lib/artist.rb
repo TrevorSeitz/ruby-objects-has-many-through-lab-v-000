@@ -13,7 +13,7 @@ class Artist
     @songs << song
     song.artist = self
     genres << song.genre
-    binding.pry
+    # binding.pry
     # artist.genres << song.genre
     # genre.artists = self
   end
