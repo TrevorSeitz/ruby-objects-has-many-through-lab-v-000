@@ -22,7 +22,7 @@ class Genre
     end
 
     def add_artist(artist)
-      @artists << artist
+      @artists << song.artist
       # binding.pry
     end
 
