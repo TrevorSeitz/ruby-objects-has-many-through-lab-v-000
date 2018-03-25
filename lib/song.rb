@@ -14,5 +14,5 @@ class Song
     @artist
     binding.pry
   end
-  
+
 end
