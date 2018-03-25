@@ -7,7 +7,7 @@ class Doctor
     @patients = []
     @appointments = []
     @doctors = []
-    binding.pry
+    # binding.pry
   end
   #
   # def patients
@@ -18,6 +18,7 @@ class Doctor
     @appointments << appointment
     @patients << patient
     @doctors << doctor
+    binding.pry
   end
 
 end
