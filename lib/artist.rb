@@ -20,11 +20,11 @@ class Artist
     @songs
   end
 
-  def genres
-    self.songs.collect do |song|
-      genres << song.genre
-        binding.pry
-    end
-  end
+  # def genres
+  #   self.songs.collect do |song|
+  #     genres << song.genre
+  #       binding.pry
+  #   end
+  # end
 
 end
