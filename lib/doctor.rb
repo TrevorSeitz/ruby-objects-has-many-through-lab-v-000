@@ -12,6 +12,7 @@ class Doctor
     @appointments << appointment
     @patients << appointment.patient
     appointment.doctor = self
+    binding.pry
   end
 
 end
