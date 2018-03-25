@@ -7,15 +7,12 @@ class Patient
     @appointments = []
   end
 
-  def doctors
-    @doctors
-  end
+  # def doctors
+  #   @doctors
+  # end
 
   def add_appointment(appointment)
-    # @appointments << appointment
-    # @doctors << doctor
     @appointments << appointment
-    # @patients << appointment.patient
     @doctors << appointment.doctor
     appointment.patient = self
   end
