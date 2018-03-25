@@ -12,7 +12,10 @@ class Patient
   end
 
   def add_appointment(appointment)
-    @appointments << appointment
-    @doctors << self.doctor
+    # @appointments << appointment
+    # @doctors << doctor
+      @appointments << appointment
+      @patients << appointment.patient
+      @doctors << appointment.doctor
   end
 end
