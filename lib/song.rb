@@ -7,12 +7,10 @@ class Song
     @genre = genre
     genre.add_song(self)
     @artist = artist
-    # binding.pry
   end
 
   def artist
     @artist
-    # binding.pry
   end
 
 end
