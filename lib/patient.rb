@@ -17,5 +17,6 @@ class Patient
     @appointments << appointment
     # @patients << appointment.patient
     @doctors << appointment.doctor
+    appointment.patients << self
   end
 end
