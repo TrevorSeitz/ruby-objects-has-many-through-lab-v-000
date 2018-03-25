@@ -6,13 +6,14 @@ class Doctor
     @name = name
     @patients = []
     @appointments = []
-    @doctors = []
+    # @doctors = []
   end
 
   def add_appointment(appointment)
     @appointments << appointment
-    @patients << patient
-    @doctors << appointment.doctor
+    @patients << appointment.patient
+    # @doctors << appointment.doctor
+    appointment.doctor = self
     # binding.pry
   end
 
