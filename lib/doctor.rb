@@ -5,7 +5,7 @@ class Doctor
     @name = name
     @patients = []
     @appointments = []
-    @doctor = []
+    @doctors = []
   end
   #
   # def patients
@@ -15,7 +15,7 @@ class Doctor
   def add_appointment(appointment)
     @appointments << appointment
     @patients << patient
-    @doctor << doctor
+    @doctors << doctor
   end
 
 end
