@@ -16,7 +16,7 @@ class Artist
     song.genre.artists << song.artist
     genres << song.genre
 
-    binding.pry
+    # binding.pry
     # artist.genres << song.genre
     # genre.artists = self
   end
