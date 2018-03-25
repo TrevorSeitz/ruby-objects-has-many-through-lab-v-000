@@ -5,15 +5,17 @@ class Doctor
     @name = name
     @patients = []
     @appointments = []
+    @doctor = []
   end
-  # 
+  #
   # def patients
   #   @patients
   # end
 
-  def add_appointment(appointment)
+  def add_appointment(appointment
     @appointments << appointment
     @patients << patient
+    @doctor << doctor
   end
 
 end
