@@ -14,8 +14,8 @@ class Patient
   def add_appointment(appointment)
     # @appointments << appointment
     # @doctors << doctor
-      @appointments << appointment
-      @patients << appointment.patient
-      @doctors << appointment.doctor
+    @appointments << appointment
+    @patients << appointment.patient
+    @doctors << appointment.doctor
   end
 end
