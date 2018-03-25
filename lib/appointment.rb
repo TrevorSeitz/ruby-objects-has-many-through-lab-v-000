@@ -7,6 +7,7 @@ class Appointment
     @patient = patient
     doctor.appointments << self
     # binding.pry
+
   end
 
 
