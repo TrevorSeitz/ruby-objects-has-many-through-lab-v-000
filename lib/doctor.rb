@@ -1,3 +1,4 @@
+require "pry"
 class Doctor
   attr_accessor :name, :doctor, :appointment, :appointments, :patients, :patient
 
@@ -6,6 +7,7 @@ class Doctor
     @patients = []
     @appointments = []
     @doctors = []
+    binding.pry
   end
   #
   # def patients
