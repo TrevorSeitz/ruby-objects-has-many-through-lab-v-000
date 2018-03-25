@@ -7,6 +7,7 @@ class Artist
     @name = name
     @songs = []
     @genres = []
+    binding.pry
   end
 
   def add_song(song)
