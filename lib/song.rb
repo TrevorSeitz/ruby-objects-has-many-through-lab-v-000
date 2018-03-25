@@ -7,6 +7,6 @@ class Song
     @genre = genre
     genre.add_song(self)
     # genre.artists << artist
-
+    binding.pry
   end
 end
