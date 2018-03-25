@@ -5,6 +5,7 @@ class Appointment
     @date = date
     @doctor = doctor
     @patient = patient
+    binding.pry
   end
-  
+
 end
