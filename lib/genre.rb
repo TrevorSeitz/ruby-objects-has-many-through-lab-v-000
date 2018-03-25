@@ -6,6 +6,7 @@ class Genre
       @name = name
       @songs = []
       @artists = []
+      binding.pry
     end
 
     def songs
