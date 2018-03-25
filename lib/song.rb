@@ -10,9 +10,9 @@ class Song
     # binding.pry
   end
 
-  def self.artist
+  def artist
     @artist
-    binding.pry
+    # binding.pry
   end
 
 end
