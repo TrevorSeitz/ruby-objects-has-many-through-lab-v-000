@@ -12,7 +12,6 @@ class Doctor
     @appointments << appointment
     @patients << appointment.patient
     appointment.doctor = self
-    appointment.patient = doctor.patient
   end
 
 end
