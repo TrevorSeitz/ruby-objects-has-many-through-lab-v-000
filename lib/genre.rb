@@ -18,13 +18,13 @@ class Genre
       @artists << song.artist
     end
 
-    def artists
-      @artists
-    end
-
-    def add_artist(artist)
-      @artists << song.artist
-      binding.pry
-    end
+    # def artists
+    #   @artists
+    # end
+    # 
+    # def add_artist(artist)
+    #   @artists << song.artist
+    #   binding.pry
+    # end
 
 end
