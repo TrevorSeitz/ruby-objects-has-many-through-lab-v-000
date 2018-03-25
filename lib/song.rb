@@ -9,4 +9,8 @@ class Song
     @artist = artist
     binding.pry
   end
+
+  def artist
+    @artist
+  end
 end
